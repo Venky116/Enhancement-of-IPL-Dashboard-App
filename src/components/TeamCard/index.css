@@ -1,0 +1,30 @@
+.team-card {
+  background-color: #ffffff33;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.team-card:hover {
+  transform: scale(1.05);
+}
+
+.team-logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.team-name {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Bree Serif';
+}
